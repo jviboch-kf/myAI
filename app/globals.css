@@ -14,40 +14,40 @@ body {
 
 @layer base {
   :root {
-    --background: 220 15% 96%;  /* Light gray background */
+    --background: 204 100% 85%; /* Carolina Blue */
     --foreground: 220 50% 15%;  /* Dark navy text for strong readability */
     
-    --card: 0 0% 100%;  /* White cards for a clean UI */
-    --card-foreground: 220 50% 15%;  /* Dark navy for text */
-    
-    --popover: 0 0% 100%;  /* White popovers for contrast */
+    --card: 47 50% 85%;  /* Soft gold background for AI chat area */
+    --card-foreground: 220 50% 15%;  /* Dark navy for contrast */
+
+    --popover: 47 50% 85%;  /* Soft gold for consistency with AI chat */
     --popover-foreground: 220 50% 15%;  /* Navy text */
-    
+
     --primary: 220 90% 20%;  /* Deep navy blue */
-    --primary-foreground: 0 0% 98%;  /* Almost white text for contrast */
-    
-    --secondary: 220 15% 85%;  /* Light grayish blue */
+    --primary-foreground: 0 0% 98%;  /* White text for contrast */
+
+    --secondary: 204 100% 75%;  /* Lighter Carolina Blue for secondary elements */
     --secondary-foreground: 220 50% 20%;  /* Slightly darker navy */
-    
-    --muted: 220 15% 85%;  /* Soft muted gray */
+
+    --muted: 47 50% 90%;  /* Even softer gold for muted elements */
     --muted-foreground: 220 10% 45%;  /* Mid-gray text */
-    
-    --accent: 27 87% 55%;  /* A bold but professional orange-gold */
-    --accent-foreground: 0 0% 10%;  /* Dark text for good contrast */
-    
+
+    --accent: 27 87% 55%;  /* Gold accent for sales-driven highlights */
+    --accent-foreground: 0 0% 10%;  /* Dark text for readability */
+
     --destructive: 0 70% 50%;  /* A more balanced red */
     --destructive-foreground: 0 0% 98%;  /* White text */
-    
+
     --border: 220 15% 80%;  /* Subtle gray-blue for modern feel */
     --input: 220 15% 85%;  /* Soft gray inputs for approachability */
     --ring: 220 50% 25%;  /* Darker blue ring for focused elements */
-    
+
     --chart-1: 27 87% 55%;  /* Gold (sales-driven and energetic) */
     --chart-2: 220 60% 40%;  /* Deep blue (trust and stability) */
     --chart-3: 197 50% 30%;  /* Teal (modern and clean) */
     --chart-4: 43 74% 50%;  /* Yellow (highlighting insights) */
     --chart-5: 12 76% 50%;  /* Warm orange (energy and motivation) */
-    
+
     --radius: 0.5rem; /* Rounded corners for a modern touch */
 
   }
