@@ -109,7 +109,7 @@ export class ResponseModule {
       async start(controller) {
         queueIndicator({
           controller,
-          status: "Consulting the sales playbook...",
+          status: "Refining the perfect answer...",
           icon: "thinking",
         });
         const systemPrompt = RESPOND_TO_HOSTILE_MESSAGE_SYSTEM_PROMPT();
@@ -183,7 +183,7 @@ export class ResponseModule {
             RESPOND_TO_QUESTION_SYSTEM_PROMPT(contextFromSources);
           queueIndicator({
             controller,
-            status: "Consulting the sales playbook...",
+            status: "Reviewing relevant documents...",
             icon: "thinking",
           });
           queueAssistantResponse({
