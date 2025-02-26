@@ -1,4 +1,4 @@
-export const OWNER_NAME: string = `**KF25 Inc**`;
+export const OWNER_NAME: string = `**KF25 Inc.**`;
 export const OWNER_DESCRIPTION: string = `[OWNER DESCRIPTION]`;
 
 export const AI_NAME: string = `RevBoost AI`;
