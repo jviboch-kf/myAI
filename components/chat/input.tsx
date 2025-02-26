@@ -52,7 +52,7 @@ export default function ChatInput({
                         className="border-none focus-visible:ring-0 focus-visible:ring-offset-0 bg-transparent"
                         onFocus={() => setIsFocused(true)}
                         onBlur={() => setIsFocused(false)}
-                        placeholder="Type your message here..."
+                        placeholder="What sales challenge are you facing? Let’s tackle it together!"
                       />
                     </FormControl>
                   </FormItem>
