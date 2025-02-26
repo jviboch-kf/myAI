@@ -14,31 +14,42 @@ body {
 
 @layer base {
   :root {
-    --background: 50 100% 90%;                /* Light Yellow */
-    --foreground: 0 0% 3.9%;
-    --card: 0 0% 100%;
-    --card-foreground: 210 100% 85%;             /* Light Blue */
-    --popover: 0 0% 100%;
-    --popover-foreground: 0 0% 3.9%;
-    --primary: 0 0% 9%;
-    --primary-foreground: 0 0% 98%;
-    --secondary: 0 0% 96.1%;
-    --secondary-foreground: 0 0% 9%;
-    --muted: 0 0% 96.1%;
-    --muted-foreground: 0 0% 45.1%;
-    --accent: 0 0% 96.1%;
-    --accent-foreground: 0 0% 9%;
-    --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 0 0% 98%;
-    --border: 0 0% 89.8%;
-    --input: 0 0% 89.8%;
-    --ring: 0 0% 3.9%;
-    --chart-1: 12 76% 61%;
-    --chart-2: 173 58% 39%;
-    --chart-3: 197 37% 24%;
-    --chart-4: 43 74% 66%;
-    --chart-5: 201 32% 56%;    /* Dark blue */
-    --radius: 0.5rem;
+    --background: 220 15% 96%;  /* Light gray background */
+    --foreground: 220 50% 15%;  /* Dark navy text for strong readability */
+    
+    --card: 0 0% 100%;  /* White cards for a clean UI */
+    --card-foreground: 220 50% 15%;  /* Dark navy for text */
+    
+    --popover: 0 0% 100%;  /* White popovers for contrast */
+    --popover-foreground: 220 50% 15%;  /* Navy text */
+    
+    --primary: 220 90% 20%;  /* Deep navy blue */
+    --primary-foreground: 0 0% 98%;  /* Almost white text for contrast */
+    
+    --secondary: 220 15% 85%;  /* Light grayish blue */
+    --secondary-foreground: 220 50% 20%;  /* Slightly darker navy */
+    
+    --muted: 220 15% 85%;  /* Soft muted gray */
+    --muted-foreground: 220 10% 45%;  /* Mid-gray text */
+    
+    --accent: 27 87% 55%;  /* A bold but professional orange-gold */
+    --accent-foreground: 0 0% 10%;  /* Dark text for good contrast */
+    
+    --destructive: 0 70% 50%;  /* A more balanced red */
+    --destructive-foreground: 0 0% 98%;  /* White text */
+    
+    --border: 220 15% 80%;  /* Subtle gray-blue for modern feel */
+    --input: 220 15% 85%;  /* Soft gray inputs for approachability */
+    --ring: 220 50% 25%;  /* Darker blue ring for focused elements */
+    
+    --chart-1: 27 87% 55%;  /* Gold (sales-driven and energetic) */
+    --chart-2: 220 60% 40%;  /* Deep blue (trust and stability) */
+    --chart-3: 197 50% 30%;  /* Teal (modern and clean) */
+    --chart-4: 43 74% 50%;  /* Yellow (highlighting insights) */
+    --chart-5: 12 76% 50%;  /* Warm orange (energy and motivation) */
+    
+    --radius: 0.5rem; /* Rounded corners for a modern touch */
+
   }
   .dark {
     --background: 0 0% 3.9%;
